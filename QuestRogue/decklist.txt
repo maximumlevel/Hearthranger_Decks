@@ -1,0 +1,19 @@
+Some keywords (hero_class,quest_progress) in .json files only supported in hearthranger v.9.6.0.0 or higher version.
+
+Backstab	x2	CS2_072
+Preparation	x1	EX1_145
+Shadowstep	x2	EX1_144
+Fire Fly	x2	UNG_809
+Glacial Shard	x2	UNG_205
+Patches the Pirate	x1	CFM_637
+Southsea Deckhand	x2	CS2_146
+Stonetusk Boar	x2	CS2_171
+Swashburglar	x2	KAR_069
+The Caverns Below	x1	UNG_067
+Eviscerate	x2	EX1_124
+Gadgetzan Ferryman	x2	CFM_693
+Novice Engineer	x2	EX1_015
+Youthful Brewmaster	x2	EX1_049
+Coldlight Oracle	x2	EX1_050
+Igneous Elemental	x2	UNG_845
+Vanish	x1	NEW1_004

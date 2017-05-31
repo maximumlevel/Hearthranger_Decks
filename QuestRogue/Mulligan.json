@@ -1,0 +1,40 @@
+﻿{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"This is mulligan rules for quest rogue",	
+	
+	"Mulligan": 
+	          {
+						  "values":
+						  [
+						  		{ 
+						  		  "comment": "keep Fire Fly (UNG_809),Igneous Elemental	(UNG_845),The Caverns Below (UNG_067),Shadowstep (EX1_144)",
+						  		  "mulligan":"UNG_809,UNG_845,UNG_067,EX1_144",
+						  			"condition": "*",
+						  			"value":"hold",
+						  		},
+						  		{ 
+						  		  "comment": "keep Southsea Deckhand (CS2_146),Backstab	(CS2_072)",
+						  		  "mulligan":"CS2_146,CS2_072",
+						  			"condition": "opp_hero(count(),hero_class=warrior | rogue | hunter | paladin | shaman | druid | warlock) > 0 ",
+						  			"value":"hold",
+						  		},
+						  		{ 
+						  		  "comment": "keep Novice Engineer (EX1_015) ,Swashburglar (KAR_069) ,Youthful Brewmaster (EX1_049), Gadgetzan Ferryman (CFM_693)",
+						  		  "mulligan":"EX1_015,KAR_069,EX1_049,CFM_693",
+						  			"condition": "opp_hero(count(),hero_class=mage | priest) > 0 ",
+						  			"value":"hold",
+						  		},
+						  		{ 
+						  		  "comment": "discard all cards not listed as hold",
+						  		  "mulligan":"*",
+						  			"condition": "*",
+						  			"value":"discard",
+						  		}
+						  ],
+						  			  
+
+						},
+
+																																																						
+		
+}

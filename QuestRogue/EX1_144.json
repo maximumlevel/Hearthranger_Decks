@@ -1,0 +1,21 @@
+{
+	"GameCardId":"EX1_144",	
+	"ConfigComment":"Shadowstep :  Return a friendly minion to your hand. It_costs (2) less.",	
+	
+	"BeforePlayCardBonus":
+					{
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"if my player has quest (quest_progress>=0), and battcry target is Fire Fly	(UNG_809) or token flame elemental (UNG_809t1), add more bonus",  		  
+					  			"condition": "my_player(count(),quest_progress >=0) > 0 AND my_target(count(),cardid=UNG_809 | UNG_809t1) > 0 ",
+					  			"value":"30",
+					  		},
+					  		{						
+					  		  "comment":"otherwise if my player has quest undergoing, try to keep this card in hand.",  		  
+					  			"condition": "my_player(count(),quest_progress >=0) > 0",
+					  			"value":"-10",
+					  		},
+					  ],
+					},	
+}

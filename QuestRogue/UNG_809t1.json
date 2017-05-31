@@ -1,0 +1,17 @@
+{
+	"GameCardId":"UNG_809t1",	
+	"ConfigComment":"Flame Elemental :  ",	
+	
+	"BeforePlayCardBonus":
+					{
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"if quest is undergoing, play this card aggressively",  		  
+					  			"condition": "my_player(count(),quest_progress >=0) > 0 ",
+					  			"value":"10",
+					  		}
+					  ],
+					},	
+	
+}

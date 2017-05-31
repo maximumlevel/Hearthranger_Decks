@@ -1,0 +1,17 @@
+{
+	"GameCardId":"UNG_067",	
+	"ConfigComment":"The Caverns Below :  [x]Quest: Play four minions with the same name. Reward: Crystal Core.",	
+	
+	"BeforePlayCardBonus":
+					{
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"play this card as soon as possible",  		  
+					  			"condition": "*",
+					  			"value":"40",
+					  		}
+					  ],
+					},	
+	
+}

@@ -1,0 +1,19 @@
+{
+	"GameCardId":"UNG_845",	
+	"ConfigComment":"Igneous Elemental :  Deathrattle: Add two 1/2 Elementals to your hand.",	
+	
+		
+	"BeforePlayCardBonus":
+					{
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"if quest is undergoing, play this card aggressively",  		  
+					  			"condition": "my_player(count(),quest_progress >=0) > 0 ",
+					  			"value":"10",
+					  		}
+					  ],
+					},	
+					
+					
+}
