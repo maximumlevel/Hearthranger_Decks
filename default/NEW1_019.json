@@ -1,0 +1,16 @@
+{
+	"GameCardId":"NEW1_019",	
+	"ConfigComment":"Knife Juggler :  [x]After you summon a minion, deal 1 damage to a random enemy.",	
+	
+		"InHandPlayPriority": 
+          {
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"play this card early if other minions can be played too",  		  
+					  			"condition": "*",
+					  			"value":"200",
+					  		}
+					  ],
+					},		
+}
